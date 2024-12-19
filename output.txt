@@ -1,0 +1,39 @@
+[01;34m.[0m
+├── eslint.config.js
+├── index.html
+├── output.txt
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── [01;34mpublic[0m
+│   └── [01;35mvite.svg[0m
+├── README.md
+├── [01;34msrc[0m
+│   ├── App.jsx
+│   ├── [01;34mcomponents[0m
+│   │   ├── [01;34mDealsManagement[0m
+│   │   │   ├── DealsManagement.jsx
+│   │   │   └── index.js
+│   │   ├── [01;34mStatisticsDashboard[0m
+│   │   │   ├── index.js
+│   │   │   └── StatisticsDashboard.jsx
+│   │   ├── [01;34mTeamManagement[0m
+│   │   │   ├── index.jsx
+│   │   │   └── TeamManagement.jsx
+│   │   └── [01;34mui[0m
+│   │       ├── button.jsx
+│   │       ├── card.jsx
+│   │       ├── dialog.jsx
+│   │       └── input.jsx
+│   ├── [01;34mdata[0m
+│   │   ├── dataUtils.js
+│   │   ├── deals.json
+│   │   └── teamMembers.json
+│   ├── index.css
+│   ├── [01;34mlib[0m
+│   │   └── utils.js
+│   └── main.jsx
+├── tailwind.config.js
+└── vite.config.js
+
+10 directories, 27 files

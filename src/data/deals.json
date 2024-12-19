@@ -1,0 +1,484 @@
+{
+  "deals": [
+    {
+      "id": "1",
+      "propertyAddress": "123 Oak Street, Dallas, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-01-05",
+      "dateClosed": "2024-02-01",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "1",
+        "Closer": "4",
+        "Dispo": "6",
+        "Architect": "2",
+        "Mentor": "5",
+        "Dynamo": "3"
+      }
+    },
+    {
+      "id": "2",
+      "propertyAddress": "456 Maple Ave, Houston, TX",
+      "assignmentFee": 8000,
+      "dateFirstContact": "2024-01-10",
+      "dateClosed": "2024-02-15",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "3",
+        "Closer": "8",
+        "Dispo": "10",
+        "Architect": "2",
+        "Mentor": "5",
+        "Dynamo": "1"
+      }
+    },
+    {
+      "id": "3",
+      "propertyAddress": "789 Pine Lane, Austin, TX",
+      "assignmentFee": 8000,
+      "dateFirstContact": "2024-01-15",
+      "dateClosed": "2024-02-20",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "5",
+        "Closer": "1",
+        "Dispo": "4",
+        "Dynamo": "6",
+        "Architect": "3",
+        "Mentor": "2"
+      }
+    },
+    {
+      "id": "4",
+      "propertyAddress": "321 Elm Court, San Antonio, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-01-20",
+      "dateClosed": "2024-03-01",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "7",
+        "Closer": "9",
+        "Dispo": "8",
+        "Mentor": "2",
+        "Architect": "1",
+        "Dynamo": "4"
+      }
+    },
+    {
+      "id": "5",
+      "propertyAddress": "654 Birch Road, Fort Worth, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-01-25",
+      "dateClosed": "2024-03-05",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "9",
+        "Closer": "4",
+        "Architect": "6",
+        "Dispo": "2",
+        "Mentor": "1",
+        "Dynamo": "5"
+      }
+    },
+    {
+      "id": "6",
+      "propertyAddress": "987 Cedar Street, Plano, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-01-30",
+      "dateClosed": "2024-03-10",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "1",
+        "Closer": "8",
+        "Dispo": "10",
+        "Dynamo": "4",
+        "Architect": "5",
+        "Mentor": "3"
+      }
+    },
+    {
+      "id": "7",
+      "propertyAddress": "147 Walnut Ave, Irving, TX",
+      "assignmentFee": 7000,
+      "dateFirstContact": "2024-02-01",
+      "dateClosed": "2024-03-15",
+      "status": "Complete",
+      "roles": {
+        "Hunter": "3",
+        "Closer": "1",
+        "Mentor": "2",
+        "Dispo": "5",
+        "Architect": "7",
+        "Dynamo": "6"
+      }
+    },
+    {
+      "id": "8",
+      "propertyAddress": "258 Spruce Lane, Arlington, TX",
+      "assignmentFee": 9000,
+      "dateFirstContact": "2024-02-05",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "5",
+        "Closer": "4",
+        "Architect": "2",
+        "Dispo": "1",
+        "Mentor": "3",
+        "Dynamo": "7"
+      }
+    },
+    {
+      "id": "9",
+      "propertyAddress": "369 Ash Court, Garland, TX",
+      "assignmentFee": 7500,
+      "dateFirstContact": "2024-02-10",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "7",
+        "Dispo": "6",
+        "Dynamo": "8",
+        "Closer": "2",
+        "Architect": "4",
+        "Mentor": "1"
+      }
+    },
+    {
+      "id": "10",
+      "propertyAddress": "741 Sycamore Road, McKinney, TX",
+      "assignmentFee": 7500,
+      "dateFirstContact": "2024-02-15",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "9",
+        "Closer": "8",
+        "Mentor": "5",
+        "Dispo": "3",
+        "Architect": "1",
+        "Dynamo": "2"
+      }
+    },
+    {
+      "id": "11",
+      "propertyAddress": "852 Magnolia Street, Frisco, TX",
+      "assignmentFee": 6500,
+      "dateFirstContact": "2024-02-20",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "1",
+        "Dispo": "10",
+        "Architect": "3",
+        "Closer": "5",
+        "Mentor": "4",
+        "Dynamo": "2"
+      }
+    },
+    {
+      "id": "12",
+      "propertyAddress": "963 Dogwood Ave, Denton, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-02-25",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "3",
+        "Closer": "1",
+        "Dynamo": "2",
+        "Dispo": "7",
+        "Architect": "6",
+        "Mentor": "4"
+      }
+    },
+    {
+      "id": "13",
+      "propertyAddress": "159 Redwood Lane, Richardson, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-03-01",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "5",
+        "Dispo": "4",
+        "Mentor": "7",
+        "Closer": "2",
+        "Architect": "1",
+        "Dynamo": "3"
+      }
+    },
+    {
+      "id": "14",
+      "propertyAddress": "753 Cherry Court, Lewisville, TX",
+      "assignmentFee": 7500,
+      "dateFirstContact": "2024-03-05",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "7",
+        "Closer": "9",
+        "Architect": "6",
+        "Dispo": "1",
+        "Mentor": "2",
+        "Dynamo": "4"
+      }
+    },
+    {
+      "id": "15",
+      "propertyAddress": "951 Willow Road, Allen, TX",
+      "assignmentFee": 9500,
+      "dateFirstContact": "2024-01-05",
+      "dateClosed": null,
+      "status": "Dead",
+      "roles": {
+        "Hunter": "9",
+        "Dispo": "8",
+        "Dynamo": "10",
+        "Closer": "3",
+        "Architect": "2",
+        "Mentor": "1"
+      }
+    },
+    {
+      "id": "16",
+      "propertyAddress": "357 Poplar Street, Carrollton, TX",
+      "assignmentFee": 7500,
+      "dateFirstContact": "2024-01-10",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "1",
+        "Closer": "4",
+        "Mentor": "2",
+        "Dispo": "6",
+        "Architect": "3",
+        "Dynamo": "5"
+      }
+    },
+    {
+      "id": "17",
+      "propertyAddress": "864 Beech Ave, Mesquite, TX",
+      "assignmentFee": 7500,
+      "dateFirstContact": "2024-01-15",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "3",
+        "Dispo": "6",
+        "Architect": "7",
+        "Closer": "1",
+        "Mentor": "4",
+        "Dynamo": "2"
+      }
+    },
+    {
+      "id": "18",
+      "propertyAddress": "246 Holly Lane, Grand Prairie, TX",
+      "assignmentFee": 8750,
+      "dateFirstContact": "2024-01-20",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "5",
+        "Closer": "8",
+        "Dynamo": "4",
+        "Dispo": "1",
+        "Architect": "2",
+        "Mentor": "3"
+      }
+    },
+    {
+      "id": "19",
+      "propertyAddress": "135 Juniper Court, Flower Mound, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-01-25",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "7",
+        "Dispo": "10",
+        "Mentor": "5",
+        "Closer": "2",
+        "Architect": "1",
+        "Dynamo": "3"
+      }
+    },
+    {
+      "id": "20",
+      "propertyAddress": "579 Linden Road, The Colony, TX",
+      "assignmentFee": 7750,
+      "dateFirstContact": "2024-01-30",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "9",
+        "Closer": "1",
+        "Architect": "2",
+        "Dispo": "4",
+        "Mentor": "6",
+        "Dynamo": "5"
+      }
+    },
+    {
+      "id": "21",
+      "propertyAddress": "824 Palm Street, Euless, TX",
+      "assignmentFee": 9750,
+      "dateFirstContact": "2024-02-01",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "1",
+        "Dispo": "4",
+        "Dynamo": "6",
+        "Closer": "2",
+        "Architect": "3",
+        "Mentor": "5"
+      }
+    },
+    {
+      "id": "22",
+      "propertyAddress": "468 Cypress Ave, Bedford, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-02-05",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "3",
+        "Closer": "8",
+        "Mentor": "7",
+        "Dispo": "1",
+        "Architect": "4",
+        "Dynamo": "2"
+      }
+    },
+    {
+      "id": "23",
+      "propertyAddress": "791 Mulberry Lane, Grapevine, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-02-10",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "5",
+        "Dispo": "10",
+        "Architect": "2",
+        "Closer": "1",
+        "Mentor": "3",
+        "Dynamo": "4"
+      }
+    },
+    {
+      "id": "24",
+      "propertyAddress": "357 Hawthorn Court, Coppell, TX",
+      "assignmentFee": 8250,
+      "dateFirstContact": "2024-02-15",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "7",
+        "Closer": "1",
+        "Dynamo": "8",
+        "Dispo": "2",
+        "Architect": "5",
+        "Mentor": "3"
+      }
+    },
+    {
+      "id": "25",
+      "propertyAddress": "802 Locust Road, Southlake, TX",
+      "assignmentFee": 8250,
+      "dateFirstContact": "2024-02-20",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "9",
+        "Dispo": "4",
+        "Mentor": "5",
+        "Closer": "1",
+        "Architect": "2",
+        "Dynamo": "3"
+      }
+    },
+    {
+      "id": "26",
+      "propertyAddress": "913 Hickory Street, Colleyville, TX",
+      "assignmentFee": 7250,
+      "dateFirstContact": "2024-02-25",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "1",
+        "Closer": "8",
+        "Architect": "3",
+        "Dispo": "5",
+        "Mentor": "2",
+        "Dynamo": "4"
+      }
+    },
+    {
+      "id": "27",
+      "propertyAddress": "624 Birch Ave, Hurst, TX",
+      "assignmentFee": 9250,
+      "dateFirstContact": "2024-03-01",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "3",
+        "Dispo": "6",
+        "Dynamo": "2",
+        "Closer": "1",
+        "Architect": "4",
+        "Mentor": "5"
+      }
+    },
+    {
+      "id": "28",
+      "propertyAddress": "735 Acorn Lane, North Richland Hills, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-03-05",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "5",
+        "Closer": "1",
+        "Mentor": "7",
+        "Dispo": "2",
+        "Architect": "3",
+        "Dynamo": "4"
+      }
+    },
+    {
+      "id": "29",
+      "propertyAddress": "846 Chestnut Court, Keller, TX",
+      "assignmentFee": 10000,
+      "dateFirstContact": "2024-03-10",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "7",
+        "Dispo": "4",
+        "Architect": "6",
+        "Closer": "1",
+        "Mentor": "2",
+        "Dynamo": "3"
+      }
+    },
+    {
+      "id": "30",
+      "propertyAddress": "957 Pecan Road, Mansfield, TX",
+      "assignmentFee": 8750,
+      "dateFirstContact": "2024-03-15",
+      "dateClosed": null,
+      "status": "In Progress",
+      "roles": {
+        "Hunter": "9",
+        "Closer": "8",
+        "Dynamo": "10",
+        "Dispo": "1",
+        "Architect": "2",
+        "Mentor": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "teamMembers": [
+      {
+        "id": "1",
+        "name": "John Smith",
+        "roles": ["Hunter", "Closer", "Dispo"]
+      },
+      {
+        "id": "2",
+        "name": "Sarah Johnson",
+        "roles": ["Architect", "Mentor", "Dynamo"]
+      },
+      {
+        "id": "3",
+        "name": "Michael Chang",
+        "roles": ["Hunter", "Mentor", "Architect"]
+      },
+      {
+        "id": "4",
+        "name": "Emily Rodriguez",
+        "roles": ["Closer", "Dispo", "Dynamo"]
+      },
+      {
+        "id": "5",
+        "name": "David Wilson",
+        "roles": ["Hunter", "Closer", "Mentor"]
+      },
+      {
+        "id": "6",
+        "name": "Lisa Anderson",
+        "roles": ["Dispo", "Architect", "Dynamo"]
+      },
+      {
+        "id": "7",
+        "name": "James Taylor",
+        "roles": ["Hunter", "Architect", "Mentor"]
+      },
+      {
+        "id": "8",
+        "name": "Maria Garcia",
+        "roles": ["Closer", "Dispo", "Dynamo"]
+      },
+      {
+        "id": "9",
+        "name": "Robert Martinez",
+        "roles": ["Hunter", "Closer", "Architect"]
+      },
+      {
+        "id": "10",
+        "name": "Patricia Lee",
+        "roles": ["Dispo", "Mentor", "Dynamo"]
+      }
+    ]
+  }
